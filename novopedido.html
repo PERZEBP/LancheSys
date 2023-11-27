@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <nav class="navbar navbar-light" style="background-color: #689b6a">
+        <a class="navbar-brand" href="#">
+            <img src="/docs/4.1/assets/brand/bootstrap-solid.svg" width="30" height="30"
+                class="d-inline-block align-top" alt="" />
+        </a>
+    </nav>
+
+    <h3 style="margin-top: 35px; margin-left: 70px">Cadastro de pedido:</h3>
+
+    <form>
+        <div class="form-group">
+            <label for="exampleInputEmail1" style="margin-left: 70px; margin-top: 15px; font-size: 20px">Nome do cliente:</label>
+            <input class="form-control campo" id="exampleInputEmail1" />
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-5">
+                <label for="exampleInputEmail1" style="margin-left: 70px; margin-top: 15px; font-size: 20px">Para comer:</label>
+                <select class="form-control campo" type="text" id="exampleInputEmail1"></select>
+            </div>
+            <div class="form-group col-md-5">
+                <label for="exampleInputEmail1"
+                    style="margin-left: 70px; margin-top: 15px; font-size: 20px">Quantidade:</label>
+                <input class="form-control campo qtd" type="number" id="exampleInputEmail1" />
+            </div>
+        </div>
+		<div class="form-row">
+            <div class="form-group col-md-5">
+                <label for="exampleInputEmail1" style="margin-left: 70px; margin-top: 15px; font-size: 20px">Para beber:</label>
+                <select class="form-control campo" type="text" id="exampleInputEmail1"></select>
+            </div>
+            <div class="form-group col-md-5">
+                <label for="exampleInputEmail1"
+                    style="margin-left: 70px; margin-top: 15px; font-size: 20px">Quantidade:</label>
+                <input class="form-control campo qtd" type="number" id="exampleInputEmail1" />
+            </div>
+        </div>
+
+			<div class="form-group">
+						<label for="exampleInputEmail1" style="margin-left: 70px; margin-top: 15px; font-size: 20px">Valor total:</label>
+						<input class="form-control campo" id="exampleInputEmail1" disabled/>
+					</div>
+				</form>
+		<button type="submit" class="np3 btn btn-primary">Salvar</button>
+
+	
+
+</body>
+
+</html>

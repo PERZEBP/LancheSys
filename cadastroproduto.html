@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-light" style="background-color: #689B6A;">
+        <a class="navbar-brand" href="#">
+          <img src="/docs/4.1/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+        </a>
+    </nav>
+    <h3 style ="margin-top: 35px; margin-left: 70px;">Cadastro de produtos:</h3>
+    <form>
+      <label for="tipo-de-produto" style="margin-top: 10px; margin-left: 70px; font-size: 20px;">Tipos de produto:</label>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="consumo" value="" id="defaultCheck1" style="margin-left: 70px;">
+        <label class="form-check-label" for="defaultCheck1" style="margin-left: 100px; font-size: 20px; margin-top: 3px;">
+          Bebida
+        </label>
+      </div>
+
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="consumo" id="defaultCheck1"style="margin-left: 70px;">
+        <label class="form-check-label" for="defaultCheck1"style="margin-left: 100px; font-size: 20px; margin-top: 4px">
+          Comida
+        </label>
+      </div>
+
+
+        <div class="form-group">
+          <label for="exampleInputEmail1" style="margin-left: 70px; margin-top: 35px; font-size: 20px;">Nome do produto:</label>
+          <input class="form-control campo" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Batata frita">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1" style="margin-left: 70px; font-size: 20px; margin-top: 15px;">Valor do produto:</label>
+          <input class="form-control campo" type="number" id="exampleInputPassword1" placeholder="Valor do produto">
+        </div>
+        <button type="submit" class="btn btn-primary np2">Salvar</button>
+      </form>
+
+</body>
+</html>
