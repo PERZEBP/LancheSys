@@ -16,43 +16,43 @@
 
     <h3 style ="margin-top: 35px; margin-left: 70px;">Cadastro de Clientes:</h3> 
     
-    <form>
+    <form action="createcliente.php" method="post">
         
         <div class="numsei">
             <div>
                 <div class="form-group">
                     <label for="exampleInputEmail1" style="margin-left: 70px; margin-top: 15px; font-size: 20px;">Nome Completo:</label>
-                    <input class="form-control campo" id="exampleInputEmail1">
+                    <input class="form-control campo" name="nome" id="exampleInputEmail1">
                   </div>
                   <div class="form-group">
                     <label for="exampleInputEmail1" style="margin-left: 70px; margin-top: 15px; font-size: 20px;">CPF:</label>
-                    <input class="form-control campo" type="number" id="exampleInputEmail1">
+                    <input class="form-control campo" name="cpf" type="number" id="exampleInputEmail1">
                   </div>
                   <div class="form-group">
                     <label for="exampleInputEmail1" style="margin-left: 70px; margin-top: 15px; font-size: 20px;">Telefone:</label>
-                    <input class="form-control campo" type="number" id="exampleInputEmail1">
+                    <input class="form-control campo" name="telefone" type="number" id="exampleInputEmail1">
                   </div>
             </div>
               <div>
                   <div class="form-group">
                     <label for="exampleInputEmail1" style="margin-left: 70px; margin-top: 15px; font-size: 20px;">Endereço:</label>
-                    <input class="form-control campo" id="exampleInputEmail1">
+                    <input class="form-control campo" name="endereco" id="exampleInputEmail1">
                   </div>
                   <div class="form-group">
                     <label for="exampleInputEmail1" style="margin-left: 70px; margin-top: 15px; font-size: 20px;">Número:</label>
-                    <input class="form-control campo" type="number" id="exampleInputEmail1">
+                    <input class="form-control campo" name="numero" type="number" id="exampleInputEmail1">
                   </div>
             
                   <div class="form-group">
                     <label for="exampleInputEmail1" style="margin-left: 70px; margin-top: 15px; font-size: 20px;">Complemento:</label>
-                    <input class="form-control campo" id="exampleInputEmail1">
+                    <input class="form-control campo" name="complemento" id="exampleInputEmail1">
                   </div>
               </div>
         </div>
 
+        <button type="submit" class="btn btn-primary np3" style="margin-top: 120px;">Salvar</button>
     </form>
 
-    <button type="submit" class="btn btn-primary np3" style="margin-top: 120px;">Salvar</button>
 
 </body>
 </html>
